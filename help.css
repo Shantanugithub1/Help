@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+.doctor{
+  background:url(../images/background-img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.doctor .box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.doctor .box-container .box{
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  padding:1rem;
+  margin:1.5rem;
+  text-align: center;
+  background:#fff;
+  border:.1rem solid rgba(0,0,0,.1);
+  width:15rem;
+  height:19rem;
+}
+
+.doctor .box-container .box img{
+  margin:1rem;
+  border-radius: 50%;
+  height:10rem;
+  width:13rem;
+  background:var(--blue);
+}
+
+p{
+  font-size: large;
+}
+
+.doctor .box-container .box h3{
+  font-size: 20px;
+  color:var(--blue);
+}
+
+.doctor .box-container .box span{
+  font-size: 1.5rem;
+  color:var(--dark-blue);
+}
+
+.doctor .box-container .box .share{
+  border-top: .1rem solid rgba(0,0,0,.1);
+  padding:1rem;
+  margin-top: 1rem;
+}
+
+.doctor .box-container .box .share a{
+  border-radius: 50%;
+  height: 4.5rem;
+  width:4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  margin: .4rem;
+  background:#eee;
+  color:var(--blue);
+}
+
+.doctor .box-container .box .share a:hover{
+  background:var(--blue);
+  color:#fff;
+  transform: rotate(360deg);
+}
+
+
+body{
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  margin-left: 420px;
+}
+th{
+  background-color: rgb(0, 1, 71);
+  color: white;
+}
+td{
+  font-weight: bold;
+  text-align: left;
+}
+#block1 ,#block2 ,#block3 ,#block4 ,#block5 ,#block6 ,#block7 ,#block8 ,#block9 ,#block10 ,#block11 ,#block12 ,#block13 ,#block14 ,#block15 ,#block16 ,#block17 ,#block18 ,#block19{
+  background-color: rgb(247, 245, 245);
+}
